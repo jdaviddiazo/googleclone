@@ -45,8 +45,13 @@ nav .nav-right-section .menu-icon {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    opacity: 60%;
     width: 1.6rem;
     height: 1.6rem;
+}
+
+nav .nav-right-section .menu-icon:hover {
+    opacity: 100%;
 }
 
 nav .nav-right-section img {

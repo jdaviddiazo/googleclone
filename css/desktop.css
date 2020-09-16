@@ -58,3 +58,59 @@ nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 2rem;
 }
+
+main {
+    margin-top: 13rem;
+    text-align: center;
+}
+
+main .google-logo {
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+}
+
+main .main-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.5rem;
+}
+
+main .main-input-container {
+    width: 58rem;
+    border-radius: 5rem;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #fff;
+}
+
+main .main-input input {
+    width: 50.5rem;
+    height: 4.5rem;
+    border: none;
+    outline: none;
+}
+
+main .main-input .search-icon {
+    background-image: url(../assets/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    opacity: 35%;
+}
+
+main .main-input .microphone-icon {
+    background-image: url(../assets/microphone-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+}

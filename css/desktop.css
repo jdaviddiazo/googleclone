@@ -21,14 +21,28 @@ header nav {
 }
 
 header nav .nav-right-section {
-    padding-top: 1.4rem;
-    width: 12.5%;
+    padding-top: 1.5rem;
+    width: 17%;
     height: auto;
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
 }
+
+header nav .login-button button {
+    margin-left: 2rem;
+    padding: .65rem 1.2rem;
+    border-radius: .2rem;
+    font-size: 1.3rem;
+    border: 1px solid #4285f4;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+}
+
+header nav .login-button button:hover { box-shadow: 0 1px 0 rgba(0,0,0,.15); }
 
 nav .nav-right-section a {
     font-size: 1.3rem;

@@ -21,8 +21,8 @@ header nav {
 }
 
 header nav .nav-right-section {
-    padding-top: 1.5rem;
-    width: 17%;
+    padding-top: 2.25rem;
+    width: 16.6%;
     height: auto;
     display: flex;
     list-style: none;
@@ -30,24 +30,32 @@ header nav .nav-right-section {
     align-items: center;
 }
 
-header nav .login-button button {
-    margin-left: 2rem;
+header nav .nav-right-section .login-button {
+    margin-left: 2.2rem;
     padding: .65rem 1.2rem;
     border-radius: .2rem;
     font-size: 1.3rem;
     border: 1px solid #4285f4;
     color: #fff;
     font-weight: bold;
-    outline: none;
     background: #4285f4;
 }
 
-header nav .login-button button:hover { box-shadow: 0 1px 0 rgba(0,0,0,.15); }
+header nav .nav-right-section .login-button:hover { 
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    text-decoration: none;
+    cursor: default;
+}
+
+header nav .nav-right-section .login-button:active { 
+    background: #3c78dc;
+    background: linear-gradient(top,#3c7ae4,#3f76d3);
+}
 
 nav .nav-right-section a {
     font-size: 1.3rem;
     color: rgba(0,0,0,0.87);
-    margin-right: 1.6rem;
+    margin-right: 1.5rem;
 }
 
 nav .nav-right-section a:hover {
@@ -59,6 +67,7 @@ nav .nav-right-section .menu-icon {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    margin-left: .7rem;
     opacity: 60%;
     width: 1.6rem;
     height: 1.6rem;

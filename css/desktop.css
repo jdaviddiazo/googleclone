@@ -22,7 +22,7 @@ header nav {
 
 header nav .nav-right-section {
     padding-top: 2.25rem;
-    width: 16.6%;
+    padding-right: 1.5rem;
     height: auto;
     display: flex;
     list-style: none;
